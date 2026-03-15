@@ -1,0 +1,20 @@
+{
+    "name": "Facebook React Bot",
+    "description": "Facebook Auto React Bot",
+    "repository": "https://github.com/yourusername/facebook-bot",
+    "keywords": ["python", "flask", "playwright", "facebook"],
+    "env": {
+        "PLAYWRIGHT_BROWSERS_PATH": {
+            "description": "Playwright browsers path",
+            "value": "/app/ms-playwright"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+        }
+    ]
+}
