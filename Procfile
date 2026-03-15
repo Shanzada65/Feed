@@ -1,1 +1,1 @@
-web: gunicorn app:app --workers 1 --threads 8 --timeout 0
+web: python -m playwright install chromium && gunicorn app:app
