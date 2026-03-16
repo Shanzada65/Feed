@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot with Playwright",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  }
+}
